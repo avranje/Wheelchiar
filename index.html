@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Voice Command Classifier</title>
+  <title>Voice Command Detector</title>
   <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Permissions-Policy" content="microphone=(self)">
 </head>
 <body>
   <div class="container">
     <h1>Voice Command Recognition</h1>
-    <div id="current">Listening...</div>
+    <button onclick="startListening()">Start Listening</button>
+    <p id="status">Status: Not Listening</p>
+    <div id="current">Detected: None</div>
     <div id="last">Last Command: <span id="last-command">None</span></div>
   </div>
 
