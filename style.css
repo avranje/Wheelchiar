@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#current {
+  font-size: 2em;
+  margin: 20px;
+  color: #007acc;
+}
+
+#last {
+  font-size: 1.2em;
+  color: #555;
+}
