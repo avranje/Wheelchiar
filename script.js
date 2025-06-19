@@ -1,4 +1,4 @@
-const URL = "YOUR_MODEL_URL_HERE"; // Replace with your model URL from Teachable Machine
+const URL = "https://teachablemachine.withgoogle.com/models/QRPqDNgum/"; // Replace with your model URL from Teachable Machine
 
 let model, recognizer;
 let lastDetectedClass = "";
