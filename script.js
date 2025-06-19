@@ -25,7 +25,7 @@ function listen() {
             document.getElementById("last-command").innerText = currentLabel;
         }
     }, {
-        probabilityThreshold: 0.5,
+        probabilityThreshold: 0.2,
         overlapFactor: 0.5
     });
 }
