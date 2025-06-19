@@ -1,4 +1,4 @@
-
+const URL = "https://teachablemachine.withgoogle.com/models/QRPqDNgum/";
 let model, recognizer;
 let lastDetectedClass = "";
 
